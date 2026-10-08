@@ -14,9 +14,10 @@ Fecha: 2026-10-08.
 - Acceso a Internet del agente desactivado en el entorno publicado; sin secretos ni variables añadidas.
 - Material audiovisual previo incorporado a video/assets/logo: 8 archivos de logo y animación, más 2 scripts adaptados en video/tools.
 - Video y desarrollo comparten el repositorio. Los archivos originales fuera de VoxWave se conservan como copias previas; trabajar desde ahora dentro del repositorio.
+- Proyecto público `MarcoGarLop/voxwave-video-pitch` integrado como snapshot bajo `video/voxwave-video-pitch`, con su historia externa documentada.
 
 ## Pendiente
 - Registrar la carpeta como proyecto local en la interfaz si se desea acceso separado desde la barra lateral.
-- Implementar aplicación, pruebas y modelo; completar el video de presentación más allá de la animación del logo.
+- Implementar aplicación, pruebas y modelo; completar el video de presentación más allá de la animación y el bloque de pitch integrado.
 
 No hay validación clínica, stack seleccionado ni aplicación ejecutable.

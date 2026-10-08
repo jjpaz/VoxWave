@@ -38,6 +38,12 @@ local-data/
 *.webm
 # Excepción revisada: animación gráfica del logo, sin audio clínico (menos de 1 MB).
 !/video/assets/logo/VoxWave-animation/VoxWave-reveal.mp4
+# Excepción revisada: locución TTS y efectos del pitch, sin audio clínico.
+!/video/voxwave-video-pitch/public/audio/
+!/video/voxwave-video-pitch/public/audio/sfx/
+!/video/voxwave-video-pitch/public/audio/vo/
+!/video/voxwave-video-pitch/public/audio/**/*.wav
+!/video/voxwave-video-pitch/public/audio/**/*.mp3
 /video/renders/**
 !/video/renders/**/
 !/video/renders/**/.gitkeep

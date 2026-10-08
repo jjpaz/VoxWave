@@ -9,6 +9,8 @@
 - Mantener datos privados fuera del repositorio; .gitignore no sustituye revisión manual.
 - No forzar inclusiones ignoradas en Git. Se permiten assets gráficos ligeros revisados; evitar binarios innecesarios y archivos mayores de 5 MiB. La animación del logo tiene una excepción específica en .gitignore; no extenderla a otros videos o audios sin revisión.
 - No elegir un stack, proveedor o dispositivo como decisión definitiva sin registrarlo en docs/DECISIONS.md.
+- El proyecto Remotion integrado en video/voxwave-video-pitch es material audiovisual de pitch; sus señales, métricas y pacientes son simulados hasta que se documente lo contrario.
+- No ejecutar scripts ni instalar dependencias de un clon externo sin revisar sus cambios y procedencia.
 - Actualizar STATUS y decisiones cuando cambie el proyecto.
 - Validación inicial: python scripts/check_repository.py. No existen todavía pruebas de aplicación; añadirlas al implementar comportamiento.
 - En Cloud: trabajar solo con el contenido seguro del repositorio y datos sintéticos; no descargar datasets ni pedir credenciales clínicas.
