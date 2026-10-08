@@ -5,10 +5,10 @@ Verificar con `python scripts/check_repository.py`. Git usa la rama main.
 El scaffold no necesita instalar paquetes, claves API ni herramientas clínicas.
 
 ## GitHub
-Pendiente de autenticación local. Después de iniciar sesión, comprobar la cuenta y si VoxWave ya existe.
-Si no existe: `gh repo create VoxWave --private --source=. --remote=origin --push`.
-Si ya existe, inspeccionar visibilidad y contenido antes de vincularlo; no sobrescribir historia.
-Verificar visibilidad privada, origen remoto y que main local coincida con main remoto.
+Repositorio privado: https://github.com/jjpaz/VoxWave.
+Cuenta: jjpaz. El remoto origin apunta a ese repositorio.
+Antes de publicar cambios: revisar `git diff`, ejecutar el comprobador y confirmar que no se incluyan datos privados.
+Publicar commits revisados con `git push origin main`. No sobrescribir historia remota.
 
 ## Cloud
 Tras publicar, conectar GitHub en Codex y habilitar acceso al repositorio privado VoxWave.
