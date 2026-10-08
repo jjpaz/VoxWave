@@ -1,0 +1,11 @@
+# Decisiones
+| ID | Fecha | Decisión | Motivo |
+|---|---|---|---|
+| D001 | 2026-10-08 | Foco exclusivo en Parkinson | Instrucción del propietario |
+| D002 | 2026-10-08 | Screening por voz; sin afirmar diagnóstico | Alcance del proyecto |
+| D003 | 2026-10-08 | Flujo principal diseñado para offline | Requisito prioritario |
+| D004 | 2026-10-08 | Un repositorio con video, platform, hardware y docs | Contexto compartido y trabajo separado |
+| D005 | 2026-10-08 | GitHub privado; sin datasets ni audio clínico | Instrucción del propietario |
+| D006 | 2026-10-08 | Stack y hardware aún abiertos | Evitar decisiones prematuras |
+
+Registrar cada nueva decisión con alternativas, motivo y consecuencias. La arquitectura actual es una propuesta, no implementación.

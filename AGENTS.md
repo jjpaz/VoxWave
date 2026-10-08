@@ -1,0 +1,14 @@
+# Instrucciones de VoxWave
+- Leer docs/PROJECT_CONTEXT.md, docs/STATUS.md y docs/DECISIONS.md antes de trabajar.
+- Foco exclusivo en Parkinson; objetivo exploratorio de screening mediante voz para Creative Shock.
+- Priorizar captura, control de calidad e inferencia offline. El backend no debe ser requisito del flujo principal.
+- No presentar el prototipo como diagnóstico ni inventar sensibilidad, especificidad, validación o alianzas.
+- Separar desarrollo audiovisual (video), software (platform), hardware y documentación.
+- No subir ni enviar a herramientas externas audios clínicos, datos identificables, datasets restringidos, secretos o pesos sin permiso y revisión de licencia.
+- Usar datos sintéticos para demos y pruebas. No importar automáticamente archivos del proyecto padre ni de sources/.
+- Mantener datos privados fuera del repositorio; .gitignore no sustituye revisión manual.
+- No forzar inclusiones ignoradas en Git. Evitar binarios y archivos mayores de 5 MiB.
+- No elegir un stack, proveedor o dispositivo como decisión definitiva sin registrarlo en docs/DECISIONS.md.
+- Actualizar STATUS y decisiones cuando cambie el proyecto.
+- Validación inicial: python scripts/check_repository.py. No existen todavía pruebas de aplicación; añadirlas al implementar comportamiento.
+- En Cloud: trabajar solo con el contenido seguro del repositorio y datos sintéticos; no descargar datasets ni pedir credenciales clínicas.
