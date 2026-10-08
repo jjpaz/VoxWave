@@ -5,9 +5,9 @@
 - No presentar el prototipo como diagnóstico ni inventar sensibilidad, especificidad, validación o alianzas.
 - Separar desarrollo audiovisual (video), software (platform), hardware y documentación.
 - No subir ni enviar a herramientas externas audios clínicos, datos identificables, datasets restringidos, secretos o pesos sin permiso y revisión de licencia.
-- Usar datos sintéticos para demos y pruebas. No importar automáticamente archivos del proyecto padre ni de sources/.
+- Usar datos sintéticos para demos y pruebas. Importar material del proyecto padre solo cuando lo solicite el propietario y tras revisarlo; sources/ sigue siendo referencia de solo lectura.
 - Mantener datos privados fuera del repositorio; .gitignore no sustituye revisión manual.
-- No forzar inclusiones ignoradas en Git. Evitar binarios y archivos mayores de 5 MiB.
+- No forzar inclusiones ignoradas en Git. Se permiten assets gráficos ligeros revisados; evitar binarios innecesarios y archivos mayores de 5 MiB. La animación del logo tiene una excepción específica en .gitignore; no extenderla a otros videos o audios sin revisión.
 - No elegir un stack, proveedor o dispositivo como decisión definitiva sin registrarlo en docs/DECISIONS.md.
 - Actualizar STATUS y decisiones cuando cambie el proyecto.
 - Validación inicial: python scripts/check_repository.py. No existen todavía pruebas de aplicación; añadirlas al implementar comportamiento.

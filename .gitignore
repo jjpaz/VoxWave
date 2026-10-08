@@ -36,6 +36,8 @@ local-data/
 *.mkv
 *.avi
 *.webm
+# Excepción revisada: animación gráfica del logo, sin audio clínico (menos de 1 MB).
+!/video/assets/logo/VoxWave-animation/VoxWave-reveal.mp4
 /video/renders/**
 !/video/renders/**/
 !/video/renders/**/.gitkeep

@@ -3,6 +3,10 @@ Proyecto para Creative Shock: exploración de screening de Parkinson mediante vo
 
 Estado: estructura de trabajo inicial. No hay todavía aplicación, modelo entrenado ni validación clínica.
 
+Este repositorio reúne tanto el video como el desarrollo. Los materiales previos del logo y su animación están en [video/assets/logo](video/assets/logo/README.md), y sus scripts en [video/tools](video/tools/README.md). A partir de ahora, guardar el trabajo nuevo dentro de este repositorio para poder compartirlo mediante GitHub.
+
+![Logo VoxWave](video/assets/logo/VoxWave-vector/VoxWave-preview.png)
+
 ## Áreas
 - `video/`: guion, storyboard, prompts Seedance e imagen, referencias, assets y edición.
 - `platform/`: frontend, mobile, backend, API y análisis de voz.

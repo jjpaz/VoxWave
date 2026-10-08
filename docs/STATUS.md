@@ -12,9 +12,11 @@ Fecha: 2026-10-08.
 - Entorno Codex Cloud VoxWave publicado, con acceso solo para el propietario y repositorio jjpaz/VoxWave.
 - Preparación Cloud validada: Python 3.12.14, Git, acceso de lectura a GitHub y comprobación de los 47 archivos correcta.
 - Acceso a Internet del agente desactivado en el entorno publicado; sin secretos ni variables añadidas.
+- Material audiovisual previo incorporado a video/assets/logo: 8 archivos de logo y animación, más 2 scripts adaptados en video/tools.
+- Video y desarrollo comparten el repositorio. Los archivos originales fuera de VoxWave se conservan como copias previas; trabajar desde ahora dentro del repositorio.
 
 ## Pendiente
 - Registrar la carpeta como proyecto local en la interfaz si se desea acceso separado desde la barra lateral.
-- Implementar aplicación, pruebas, modelo y video.
+- Implementar aplicación, pruebas y modelo; completar el video de presentación más allá de la animación del logo.
 
 No hay validación clínica, stack seleccionado ni aplicación ejecutable.

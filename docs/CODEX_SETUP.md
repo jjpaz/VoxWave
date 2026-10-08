@@ -19,6 +19,11 @@ Acceso a Internet del agente desactivado. No hay scripts de instalación, secret
 Nunca cargar datos clínicos en tareas Cloud. Revisar necesidades de red al incorporar dependencias.
 Cuando se elija stack, añadir versiones fijadas, dependencias y comandos reales de instalación y pruebas.
 
+## Material audiovisual
+El mismo repositorio contiene ahora el logo y su animación en video/assets/logo y los scripts en video/tools.
+Las tareas Cloud nuevas que utilicen main actualizado podrán acceder a esos archivos. Las copias o tareas ya abiertas necesitan actualizar su rama.
+Los scripts audiovisuales requieren NumPy, Pillow y, para render, FFmpeg. No se han instalado esas dependencias en el entorno Cloud; la validación básica del repositorio sigue sin dependencias externas.
+
 Referencias oficiales consultadas el 2026-10-08:
 - https://learn.chatgpt.com/docs/agent-configuration/agents-md
 - https://learn.chatgpt.com/docs/environments/cloud-environment

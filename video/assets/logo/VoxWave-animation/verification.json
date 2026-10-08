@@ -1,0 +1,27 @@
+{
+  "duration_seconds": 8,
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "final_hold_seconds": 1.5,
+  "final_hold_identical_frames": true,
+  "colors": {
+    "Azul-marino": [
+      9,
+      38,
+      52
+    ],
+    "Azul": [
+      0,
+      78,
+      114
+    ],
+    "Naranja": [
+      255,
+      110,
+      66
+    ]
+  }
+}
