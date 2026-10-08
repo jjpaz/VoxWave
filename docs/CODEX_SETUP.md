@@ -11,11 +11,12 @@ Antes de publicar cambios: revisar `git diff`, ejecutar el comprobador y confirm
 Publicar commits revisados con `git push origin main`. No sobrescribir historia remota.
 
 ## Cloud
-Tras publicar, conectar GitHub en Codex y habilitar acceso al repositorio privado VoxWave.
-Crear o seleccionar un entorno para ese repositorio y rama main.
+Entorno VoxWave publicado el 2026-10-08 y conectado a jjpaz/VoxWave. Visibilidad: Only me.
+En tareas Cloud, seleccionar VoxWave y la rama main.
+Preparación validada con Python 3.12.14, Git y lectura de GitHub. Los 47 archivos superaron el comprobador.
 Para este scaffold no se necesitan secretos ni descargas. Comando de comprobación: `python scripts/check_repository.py`.
-Mantener acceso de red limitado a lo necesario. Nunca cargar datos clínicos en tareas Cloud.
-La preparación del repositorio no crea por sí sola el entorno ni concede acceso a la cuenta.
+Acceso a Internet del agente desactivado. No hay scripts de instalación, secretos ni variables de entorno añadidos.
+Nunca cargar datos clínicos en tareas Cloud. Revisar necesidades de red al incorporar dependencias.
 Cuando se elija stack, añadir versiones fijadas, dependencias y comandos reales de instalación y pruebas.
 
 Referencias oficiales consultadas el 2026-10-08:
