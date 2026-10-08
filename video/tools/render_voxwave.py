@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'renders/drafts/logo-reveal'
 OUT.mkdir(parents=True, exist_ok=True)
 W,H,FPS,SECONDS,AA=1920,1080,30,8,2
-COLORS={'Azul-marino':(9,38,52),'Azul':(0,78,114),'Naranja':(255,110,66)}
+COLORS={'Azul-marino':(10,42,59),'Azul':(2,82,125),'Naranja':(254,101,60)}
 
 def ease(a,b,t):
     q=np.clip((t-a)/(b-a),0,1)
@@ -32,7 +32,7 @@ def parse(d):
 
 def screen(p): return (p-np.array([632,636.5]))*.96+np.array([960,540])
 paths={}
-for el in ET.parse(ROOT/'assets/logo/VoxWave-vector/VoxWave-editable.svg').getroot():
+for el in ET.parse(ROOT/'assets/logo/VoxWave-vector/VoxWave-animation-source.svg').getroot():
     if el.tag.endswith('path'): paths[el.attrib['id']]=[screen(r) for r in parse(el.attrib['d'])]
 
 def poly_mask(rings):

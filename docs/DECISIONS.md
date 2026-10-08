@@ -11,5 +11,6 @@
 | D008 | 2026-10-08 | Permitir solo el MP4 del logo como excepción a la exclusión general de videos | Recurso gráfico revisado de 839300 bytes; los demás renders siguen excluidos |
 | D009 | 2026-10-08 | Integrar el contenido de voxwave-video-pitch como parte del repositorio privado VoxWave | El propietario pidió reunir video y desarrollo en GitHub; se conserva la referencia al repositorio público de origen |
 | D010 | 2026-10-08 | Versionar la locución y efectos del pitch integrados | Son recursos audiovisuales ya presentes en el clon, sin audio clínico; las exclusiones generales de audio no aplican a estas rutas revisadas |
+| D011 | 2026-10-08 | Usar el SVG oficial recibido como fuente canónica del logo | Evita que README, pitch, dispositivo y assets estáticos diverjan; la fuente vectorizada anterior queda aislada para conservar el renderizador histórico |
 
 Registrar cada nueva decisión con alternativas, motivo y consecuencias. La arquitectura actual es una propuesta, no implementación.

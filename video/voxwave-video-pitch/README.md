@@ -6,6 +6,8 @@ Es un proyecto Remotion con React y TypeScript para el bloque de solución del p
 
 Los datos, métricas, pacientes y señales son simulados para el vídeo. Este proyecto no implementa el análisis clínico de Parkinson.
 
+El logo oficial está disponible en `public/logo-oficial.svg` y `public/logo-original.svg`. Las escenas SVG usan la misma geometría y la paleta oficial definida en `src/brand/tokens.ts`.
+
 ## Uso
 
 Desde esta carpeta:

@@ -17,9 +17,9 @@ export const LogoGrid: React.FC<{lines?: Record<string, [number, number][]>}> = 
     <AbsoluteFill style={{background: 'white'}}>
       <svg viewBox="100 300 1100 500" width={1920} height={873}>
         {grid}
-        <path d={LOGO.symbol.navy.join('')} fill="#092634" opacity={0.55} />
-        <path d={LOGO.symbol.coral.join('')} fill="#FF6E42" opacity={0.55} />
-        <path d={LOGO.symbol.teal.join('')} fill="#004E72" opacity={0.55} />
+        <path d={LOGO.symbol.navy.join('')} fill="#0A2A3B" opacity={0.55} />
+        <path d={LOGO.symbol.coral.join('')} fill="#FE653C" opacity={0.55} />
+        <path d={LOGO.symbol.teal.join('')} fill="#02527D" opacity={0.55} />
         {Object.entries(lines).map(([k, pts]) => (
           <polyline key={k} points={pts.map((p) => p.join(',')).join(' ')} fill="none" stroke="lime" strokeWidth={4} />
         ))}

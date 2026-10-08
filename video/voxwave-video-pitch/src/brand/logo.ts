@@ -1,5 +1,5 @@
-// Generated from Recursos/Logo.svg (viewBox 0 0 1254 1254). Background removed,
-// split into the wave symbol and the "VoxWave" wordmark so each can be animated.
+// Geometry from the official VoxWave SVG in Recursos/Logo.svg (viewBox 0 0 1254 1254).
+// The paths are split into the wave symbol and wordmark so the pitch can animate them.
 export const LOGO_VIEWBOX = {width: 1254, height: 1254};
 
 export const LOGO = {

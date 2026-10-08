@@ -3,9 +3,9 @@ import {loadFont as loadInter} from '@remotion/google-fonts/Inter';
 
 // Brand palette. Everything on screen is built from these values.
 export const COLORS = {
-  navy: '#092634',
-  teal: '#004E72',
-  coral: '#FF6E42',
+  navy: '#0A2A3B',
+  teal: '#02527D',
+  coral: '#FE653C',
   // Derived tints, same hues, used where the base colors lack contrast on dark backgrounds.
   navyDeep: '#04141C',
   tealBright: '#2F9BCB',
@@ -15,9 +15,9 @@ export const COLORS = {
   paper: '#F1EDE4',
   paperShade: '#E4DED2',
   card: '#FBF9F4',
-  ink: '#092634',
-  inkSoft: 'rgba(9,38,52,0.55)',
-  inkFaint: 'rgba(9,38,52,0.12)',
+  ink: '#0A2A3B',
+  inkSoft: 'rgba(10,42,59,0.55)',
+  inkFaint: 'rgba(10,42,59,0.12)',
   black: '#000000',
 } as const;
 

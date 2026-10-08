@@ -10,7 +10,7 @@ export const TestSheet: React.FC<{files: string[]; tone?: 'paper' | 'ink'}> = ({
       {files.map((f) => (
         <div key={f} style={{position: 'relative', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.15)'}}>
           <Img src={staticFile(f)} style={{width: '100%', height: '100%', objectFit: 'contain'}} />
-          <span style={{position: 'absolute', left: 8, top: 6, color: '#FF6E42', fontSize: 18, fontFamily: 'monospace'}}>{f.split('/').pop()}</span>
+          <span style={{position: 'absolute', left: 8, top: 6, color: '#FE653C', fontSize: 18, fontFamily: 'monospace'}}>{f.split('/').pop()}</span>
         </div>
       ))}
     </AbsoluteFill>

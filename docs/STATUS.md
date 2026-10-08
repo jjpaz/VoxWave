@@ -12,7 +12,7 @@ Fecha: 2026-10-08.
 - Entorno Codex Cloud VoxWave publicado, con acceso solo para el propietario y repositorio jjpaz/VoxWave.
 - Preparación Cloud validada: Python 3.12.14, Git, acceso de lectura a GitHub y comprobación de los 47 archivos correcta.
 - Acceso a Internet del agente desactivado en el entorno publicado; sin secretos ni variables añadidas.
-- Material audiovisual previo incorporado a video/assets/logo: 8 archivos de logo y animación, más 2 scripts adaptados en video/tools.
+- Material audiovisual previo incorporado a video/assets/logo, con el SVG oficial como fuente canónica y la fuente histórica separada para el renderizador de la animación.
 - Video y desarrollo comparten el repositorio. Los archivos originales fuera de VoxWave se conservan como copias previas; trabajar desde ahora dentro del repositorio.
 - Proyecto público `MarcoGarLop/voxwave-video-pitch` integrado como snapshot bajo `video/voxwave-video-pitch`, con su historia externa documentada.
 

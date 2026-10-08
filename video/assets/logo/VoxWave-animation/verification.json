@@ -9,19 +9,19 @@
   "final_hold_identical_frames": true,
   "colors": {
     "Azul-marino": [
-      9,
-      38,
-      52
+      10,
+      42,
+      59
     ],
     "Azul": [
-      0,
-      78,
-      114
+      2,
+      82,
+      125
     ],
     "Naranja": [
-      255,
-      110,
-      66
+      254,
+      101,
+      60
     ]
   }
 }

@@ -65,7 +65,7 @@ def srgb(hex_color):
     return (*out, 1.0)
 
 
-CORAL = srgb("#FF6E42")
+CORAL = srgb("#FE653C")
 TEAL_BRIGHT = srgb("#2F9BCB")
 
 

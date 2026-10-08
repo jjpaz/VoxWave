@@ -12,14 +12,14 @@ Desde la raíz del repositorio:
 python video/tools/render_voxwave.py
 ```
 
-Lee el SVG de video/assets/logo/VoxWave-vector y genera MP4, GIF, storyboard, fotograma final y verification.json en video/renders/drafts/logo-reveal. Estos resultados están excluidos de Git. Volver a ejecutar sustituye los resultados de esa carpeta, sin modificar los assets incorporados.
+Lee la fuente de animación histórica de video/assets/logo/VoxWave-vector/VoxWave-animation-source.svg y genera MP4, GIF, storyboard, fotograma final y verification.json en video/renders/drafts/logo-reveal. Estos resultados están excluidos de Git. Volver a ejecutar sustituye los resultados de esa carpeta, sin modificar el logo oficial ni los demás assets incorporados.
 
 ## Vectorización
 ```sh
 python video/tools/vectorize_voxwave.py /ruta/al/logo-original.png
 ```
 
-Genera dos SVG en video/renders/drafts/vectorized-logo. Puede elegirse otro destino mediante --output-dir. Está diseñado para la composición y paleta del logo original, no para imágenes arbitrarias.
+Genera dos SVG con nombres `VoxWave-generated-*` en video/renders/drafts/vectorized-logo. Puede elegirse otro destino mediante --output-dir. Está diseñado para la composición y paleta del logo original, no para imágenes arbitrarias; no sobrescribe los SVG oficiales.
 
 El script original dependía de un PNG en una carpeta temporal de Windows. Ese archivo no forma parte del material encontrado; ahora se proporciona explícitamente como entrada. La vista previa incluida no se presenta como sustituto exacto del original.
 

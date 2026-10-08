@@ -86,6 +86,6 @@ for idx,name in [(1,'Azul-marino'),(2,'Azul'),(3,'Naranja')]:
 
 def svg(view,background=False):
     return '<?xml version="1.0" encoding="UTF-8"?>\n'+f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{view}" role="img" aria-labelledby="title desc">\n<title id="title">VoxWave</title>\n<desc id="desc">Logotipo vectorizado con curvas editables. Letras convertidas a trazados para conservar su forma sin depender de fuentes.</desc>\n'+ ('<rect id="Fondo" width="1254" height="1254" fill="#f9f9f9"/>\n' if background else '')+'\n'.join(groups)+'\n</svg>\n'
-(OUT/'VoxWave-editable.svg').write_text(svg('120 327 1024 620'),encoding='utf-8')
-(OUT/'VoxWave-original-layout.svg').write_text(svg('0 0 1254 1254',True),encoding='utf-8')
+(OUT/'VoxWave-generated-editable.svg').write_text(svg('120 327 1024 620'),encoding='utf-8')
+(OUT/'VoxWave-generated-layout.svg').write_text(svg('0 0 1254 1254',True),encoding='utf-8')
 print(json.dumps(stats))

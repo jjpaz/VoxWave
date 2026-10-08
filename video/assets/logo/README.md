@@ -3,9 +3,13 @@
 Material local previo incorporado el 2026-10-08 a petición del propietario para reunir video y desarrollo en GitHub.
 
 ## Vector
+- [Logo oficial](VoxWave-vector/Logo-oficial.svg)
 - [SVG editable](VoxWave-vector/VoxWave-editable.svg)
 - [SVG con composición original](VoxWave-vector/VoxWave-original-layout.svg)
-- [Vista previa PNG](VoxWave-vector/VoxWave-preview.png)
+- [Fuente de animación histórica](VoxWave-vector/VoxWave-animation-source.svg)
+- [Vista previa PNG histórica](VoxWave-vector/VoxWave-preview.png)
+
+Los tres primeros SVG contienen la misma fuente oficial recibida para VoxWave. La fuente de animación histórica se conserva porque el renderizador anterior necesita trazados separados para construir la revelación; no se usa como logo de producto.
 
 ## Animación
 - [Animación MP4](VoxWave-animation/VoxWave-reveal.mp4)
