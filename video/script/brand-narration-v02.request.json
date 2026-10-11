@@ -1,0 +1,15 @@
+{
+  "model_id": "eleven_v3",
+  "language_code": "en",
+  "seed": 10102040,
+  "inputs": [
+    {
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "text": "In the voices we hear every day."
+    },
+    {
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "text": "Meet VoxWave."
+    }
+  ]
+}

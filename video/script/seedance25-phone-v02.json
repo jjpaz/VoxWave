@@ -1,0 +1,14 @@
+{
+  "model": "seedance-2.5",
+  "resolution": "720p",
+  "version": "v02",
+  "output_dir": "seedance25-phone-v02",
+  "shots": [
+    {
+      "id": "m01",
+      "image": "m01-phone-v04-empty-firstframe.png",
+      "duration": 8,
+      "prompt": "A single continuous eight-second cinematic close-up, using the supplied image as the exact starting composition. Locked oblique camera, no cuts. Very dim cold overcast light in a modest Baltic rural home, dark muted colors and soft shallow focus. A current charcoal Nokia-style feature phone with physical buttons lies on the wooden table with its incoming-call screen lit. 0.0-1.5 seconds: phone alone, absolutely no hand, arm or person visible. 1.5-3.1 seconds: the right hand of an elderly woman slowly enters from the right, a dark grey knitted cuff at her wrist. Her fingers and wrist show a clearly visible natural rhythmic tremor, small repeated oscillations, more noticeable as the hand hesitates above the phone. Convey vulnerability without dramatic shaking or spasms. 3.1-4.4 seconds: trembling fingers carefully close around the sides of the phone, thumb presses the green answer key once; she securely grips and lifts the entire phone off the table. 4.4-5.0 seconds: she raises the phone toward her offscreen ear and both phone and hand leave through the upper right edge. 5.0-8.0 seconds: camera lingers on the now empty table, same light and background. Her face, head and body never appear. Anatomically correct single hand and five fingers, stable phone geometry and keypad, no sliding or levitating phone, no extra hands, no cup, no camera movement, no new text. AUDIO: extremely quiet indoor room tone, tiny realistic sleeve rustle, subtle fingertip and plastic contact synchronized to gripping and lifting. No speech, no voices, no music and no ringtone in this source track; the telephone ring and conversation will be precisely added in postproduction. Keep environmental sound subdued."
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 """Check scaffold and tracked files without reading private file contents."""
 from pathlib import Path
+import json
 import subprocess
 import sys
 
@@ -24,10 +25,17 @@ def main():
         errors.append('No tracked/staged files; stage the intended scaffold first.')
     ignored = git('ls-files', '-ci', '--exclude-standard', '-z').decode().split('\0')
     errors += [f'Tracked but excluded: {name}' for name in ignored if name]
+    manifest = json.loads((ROOT / 'video/handoff/assets.json').read_text())
+    lfs_assets = {a['path'] for a in manifest['assets'] if a['storage'] == 'lfs'}
     for name in tracked:
         path = ROOT / name
         if path.is_file() and path.stat().st_size > 5 * 1024 * 1024:
-            errors.append(f'File exceeds 5 MiB: {name}')
+            if name not in lfs_assets:
+                errors.append(f'File exceeds 5 MiB: {name}')
+            else:
+                staged = git('show', ':' + name)
+                if not staged.startswith(b'version https://git-lfs.github.com/spec/v1\n'):
+                    errors.append(f'Large media must be an LFS pointer: {name}')
     probes = ['.env', '.env.local', 'secrets/token.txt', 'datasets/restricted.json',
               'platform/tests/patient.wav', 'video/renders/final/demo.mp4',
               'platform/voice-analysis/models/model.onnx', 'local-data/patient.json']

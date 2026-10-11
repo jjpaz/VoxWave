@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "path": "video/renders/VoxWave-opening-v08-720p.mp4",
+      "bytes": 16159833,
+      "sha256": "d70a14db3002525680e98df0f3f45f5201202d0804a9cf20a22252c80c9108c2",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/opening-dialogue-v02-raw.mp3",
+      "bytes": 626982,
+      "sha256": "7a12a042fa434dee8acea0c2975e8508cdbed303e5f01932f4c3bc09f3c29974",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/opening-dialogue-v02-clean-50s.wav",
+      "bytes": 4410044,
+      "sha256": "6885fa9941bc165537d6d29cb0afe106a4e08a087cf7698e20a8b6e06e00257e",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/opening-dialogue-v02-phone-50s.wav",
+      "bytes": 4410044,
+      "sha256": "e9e1de452404a561e4783a77762d6b42f9fc5829890589d881f1bffccfb13ad7",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/brand-narration-v02-raw.mp3",
+      "bytes": 69007,
+      "sha256": "c459154e5218f9ee28eb39d7274753f6a0d085839d320f3e8304a07ada0f74a6",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/brand-narration-v02-timed.wav",
+      "bytes": 3042944,
+      "sha256": "519090b2fcf0d862bec3bf5ae78daf53d54a7701ff7057dfe82f2e6308aa4616",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/seedance25-phone-v02/m01/m01-seedance25-v02.mp4",
+      "bytes": 4918484,
+      "sha256": "00f4423989499aba22e2bd08328ff94f725bfcc775be5d1ccd846c7bee20b95c",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/seedance25-phone-v02/m01/ringtone-synced.wav",
+      "bytes": 388124,
+      "sha256": "7191d3f5ff5065dd48a483f7bd29f6903c029d8b74c36c15719765859a6b7692",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/seedance25/m02/m02-seedance25-v01.mp4",
+      "bytes": 4725777,
+      "sha256": "7491f527db060832e223c83f9478f180e72d92694e644861c1c55b4fa5c913d6",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/seedance25/m03/m03-seedance25-v01.mp4",
+      "bytes": 9069852,
+      "sha256": "1e8f150fba8314a6d7b51b92d6a8e208bef47947eb6b7abfdf12b9fb20dc7aed",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/seedance25/m04/m04-seedance25-v01.mp4",
+      "bytes": 4642406,
+      "sha256": "368c61e38f0b77b80ccf43d677e404ff4a651926f50cb7a032a6b53ebaf77d34",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/seedance25/m02/m02-ambience.wav",
+      "bytes": 647246,
+      "sha256": "cc13c577e2a896779f8c591b497e1fa88062018bd1fad9e729c16b58e144c831",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/seedance25/m03/m03-ambience.wav",
+      "bytes": 647246,
+      "sha256": "090d2c2e96e69454509ea6af7a0fb7522f35df113157ae043f8a7e8eaffbe5e8",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/seedance25/m04/m04-ambience.wav",
+      "bytes": 647246,
+      "sha256": "d4a6121d7e6ca1f2158a8739cc17821530bc1299d9d5d6394030d5b43ebb0594",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/keyframes/m01-phone-v04-empty-firstframe.png",
+      "bytes": 1955501,
+      "sha256": "20a99984aeba732494c593753a2ce7c7345e25c95ffbb8f86e9ababf872ed2f4",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/keyframes/m01-v03-A-oblique.png",
+      "bytes": 1996975,
+      "sha256": "7e930db575da8c0669ebdd334dcd61d3172220d9656adba837cddd4c105f1093",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/keyframes/m02-window-reference-v02-cup.png",
+      "bytes": 2112530,
+      "sha256": "aad3380f9b8f988b6972390a56664a04159b579b1bafeb53f7c2b7cc0f758ec0",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/keyframes/m03-v02-C-village-fields.png",
+      "bytes": 2983670,
+      "sha256": "410b7f62a3fd3ae32ab3f882689628534afb26592d5d4994525906282693fd11",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/keyframes/m04-clinic-reference-v02-cool.png",
+      "bytes": 1898933,
+      "sha256": "0043c2519e985408eb515a79e2fa03ae42d75e8ce8a495e1f164fc13d8b00a12",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/v08/mix.wav",
+      "bytes": 20793702,
+      "sha256": "ab6a9474cdef7d3e20e3fc776b4f0fe8d7805712a3ab000402e456cecf3ecaac",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/v08/narrator.wav",
+      "bytes": 6931244,
+      "sha256": "9d03b339c95782778263ea8e12182895c586e544fe1a9a603b1c0db14851dc1c",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/v08/bed.wav",
+      "bytes": 3184064,
+      "sha256": "85d506c3c0f30a95365a5a4bf3a8e48a11023ea2b23eda78541e9cd607d4cb2e",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/v08/cards-aa.mp4",
+      "bytes": 1283931,
+      "sha256": "7f7671712b20403d3864d3cd93c6c5e14b22d22f4cae5946510fb7a2932e9425",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/v08/tail.mp4",
+      "bytes": 320037,
+      "sha256": "50d0dac4cef96332e1fe3a9ecd11f0df5d67a92fe1001606e7bb9e33be74cc93",
+      "storage": "lfs"
+    },
+    {
+      "path": "video/renders/opening-dialogue-v02-timestamps.json",
+      "bytes": 59305,
+      "sha256": "a03b83ef99e151cc49658d421fdf1d2375725921393d7f6dd211d8d84a28f970",
+      "storage": "git"
+    },
+    {
+      "path": "video/renders/opening-dialogue-v02-edit.json",
+      "bytes": 34620,
+      "sha256": "2da9cced28853863895eacec15be88bb497dbb7946934c9985dfdf54ce2374a2",
+      "storage": "git"
+    },
+    {
+      "path": "video/renders/brand-narration-v02-timestamps.json",
+      "bytes": 4246,
+      "sha256": "1a6ca7969bc5e3437b92696a86f1c2f7a13a7f0ac3d06691856f9b6fc96721e7",
+      "storage": "git"
+    },
+    {
+      "path": "video/renders/v08/edit-report.json",
+      "bytes": 1423,
+      "sha256": "f5fbe15c01970842bacb7c4364f548cd4cf7f443733c4ecb88665c7c7fb1afd2",
+      "storage": "git"
+    },
+    {
+      "path": "video/renders/v08/verification.json",
+      "bytes": 479,
+      "sha256": "38224ed442346089a8a22019ad95da5d74d6d7a816f0a185c645c2efc53c1ada",
+      "storage": "git"
+    }
+  ]
+}

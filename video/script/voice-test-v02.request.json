@@ -1,0 +1,10 @@
+{
+  "model_id": "eleven_v3",
+  "language_code": "en",
+  "seed": 10102027,
+  "inputs": [
+    {"voice_id": "5u41aNhyCU6hXOcjPPv0", "text": "[gentle] [slowly] Hello?"},
+    {"voice_id": "EXAVITQu4vr4xnSDxMaL", "text": "[warmly] [slowly] Hi, Mum... It's me. [short pause] How are you feeling today?"},
+    {"voice_id": "5u41aNhyCU6hXOcjPPv0", "text": "[softly] [slowly] Oh... I'm all right. [short pause] A little tired, that's all. [short pause] [warmly] How are you?"}
+  ]
+}

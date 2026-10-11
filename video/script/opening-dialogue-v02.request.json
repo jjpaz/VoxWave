@@ -1,0 +1,18 @@
+{
+  "model_id": "eleven_v3",
+  "language_code": "en",
+  "seed": 10102027,
+  "inputs": [
+    {"voice_id": "5u41aNhyCU6hXOcjPPv0", "text": "[gentle] [slowly] Hello?"},
+    {"voice_id": "ogwqBH5bbF03DSbNiRNN", "text": "[warmly] [slowly] Hi, Mum... It's me. [short pause] How are you feeling today?"},
+    {"voice_id": "5u41aNhyCU6hXOcjPPv0", "text": "[softly] [slowly] Oh... I'm all right. [short pause] A little tired, that's all. [short pause] [warmly] How are you?"},
+    {"voice_id": "ogwqBH5bbF03DSbNiRNN", "text": "[conversational] I'm okay. Busy at work. [short pause] Did you manage to call the doctor?"},
+    {"voice_id": "5u41aNhyCU6hXOcjPPv0", "text": "[gentle] Yes, yesterday. [short pause] They're going to call me back with an appointment."},
+    {"voice_id": "ogwqBH5bbF03DSbNiRNN", "text": "[reassuring] Let me know when you hear. [short pause] I'll see if I can come with you."},
+    {"voice_id": "5u41aNhyCU6hXOcjPPv0", "text": "[warmly] That would be lovely."},
+    {"voice_id": "ogwqBH5bbF03DSbNiRNN", "text": "[gentle] Listen, I'd better get back to work. [short pause] Can I call you this evening?"},
+    {"voice_id": "5u41aNhyCU6hXOcjPPv0", "text": "[warmly] Of course, love."},
+    {"voice_id": "ogwqBH5bbF03DSbNiRNN", "text": "[warmly] All right. Speak tonight. Love you."},
+    {"voice_id": "5u41aNhyCU6hXOcjPPv0", "text": "[warmly] Love you too. Bye."}
+  ]
+}

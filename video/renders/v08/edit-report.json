@@ -1,0 +1,57 @@
+{
+  "output": "C:\\Users\\javie\\.codex\\.chatgpt-projects\\g-p-6abeccbf94ac819182207aa99e67bfc1\\VoxWave\\video\\renders\\VoxWave-opening-v08-720p.mp4",
+  "duration": 72.2,
+  "resolution": "1280x720",
+  "fps": 30,
+  "audio": "48 kHz stereo",
+  "phone_start": 5.8,
+  "ring_end": 3.9,
+  "phone_end": 52.55,
+  "question_start": 53.2,
+  "logo_tail_start": 59.2,
+  "narration": [
+    {
+      "start": 60.8,
+      "end": 63.36
+    },
+    {
+      "start": 66.0,
+      "end": 67.68
+    }
+  ],
+  "ambience": [
+    {
+      "shot": 1,
+      "source_rms_dbfs": -40.690755625435024,
+      "gain_db": -7.309244374564976,
+      "target_rms_dbfs": -48
+    },
+    {
+      "shot": 2,
+      "source_rms_dbfs": -41.827786951105594,
+      "gain_db": -6.172213048894406,
+      "target_rms_dbfs": -48
+    },
+    {
+      "shot": 3,
+      "source_rms_dbfs": -43.73982807704364,
+      "gain_db": -4.26017192295636,
+      "target_rms_dbfs": -48
+    },
+    {
+      "shot": 4,
+      "source_rms_dbfs": -37.54576030319583,
+      "gain_db": -10.454239696804173,
+      "target_rms_dbfs": -48
+    }
+  ],
+  "card_wave_aa": 4,
+  "logo_aa": 4,
+  "envelope_attack": 0.085,
+  "envelope_release": 0.24,
+  "logo_extra_inertia": false,
+  "canonical_logo_sha256": "91cdec01bee047759c06c25ab8776517133979e49de1f896119715417260313a",
+  "dialogue_regenerated": false,
+  "api_calls": 0,
+  "text_changed": false
+}

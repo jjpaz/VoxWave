@@ -1,0 +1,31 @@
+{
+  "model": "seedance-2.5",
+  "resolution": "720p",
+  "generate_audio": true,
+  "shots": [
+    {
+      "id": "m01",
+      "image": "m01-v03-A-oblique.png",
+      "duration": 6,
+      "prompt": "A single continuous six-second photorealistic shot beginning exactly from the supplied first frame. Locked camera, same oblique close-up throughout. In the dark rural Baltic home, the elderly woman's right hand shows a visible but restrained small tremor for the first second, then carefully closes its fingers around the sides of the modern button phone. The thumb briefly presses the green answer key once. By about three seconds the hand lifts the rigid phone gently upward and toward frame right, then calmly carries it out of frame. Hold the empty tabletop and room background through the end. Preserve natural hand anatomy, the exact phone shape and keypad, sleeve, furniture and dark cool cloudy daylight. Gentle everyday movement, no exaggerated shaking, no extra fingers or objects. Camera never follows the phone upward; no face, head or torso enters. No cuts, zoom, focus pull or lighting changes. SOUND: quiet interior room tone, soft knitted sleeve rustle, a small physical button click and delicate phone-hand contact sounds synchronized to the action. No ringtone, beeps, spoken words, breathing performance, music or dramatic sound effects. No text, logo or waveform."
+    },
+    {
+      "id": "m02",
+      "image": "m02-window-reference-v02-cup.png",
+      "duration": 5,
+      "prompt": "A single continuous five-second photorealistic shot beginning exactly from the supplied first frame. A nearly imperceptible slow camera push toward the window, no more than two percent framing change. The rural Baltic view, empty armchair, blanket, cup and room geometry remain stable. Outside the window, a gentle breeze barely moves sparse birch branches and dry grass. Indoors the curtain has only a tiny natural movement; the cup and furniture stay still. Preserve the dark cool overcast daylight and subdued melancholy. No people, human reflections, phone, new objects, weather changes, rack focus or cuts. SOUND: very quiet indoor room tone with faint low outdoor wind muffled by the closed window; a barely audible fabric rustle. No speech, whispers, crying, footsteps, music, ringtone or dramatic effects. No text or logos."
+    },
+    {
+      "id": "m03",
+      "image": "m03-v02-C-village-fields.png",
+      "duration": 5,
+      "prompt": "A single continuous five-second photorealistic wide shot beginning exactly from the supplied first frame. Camera at the same slightly elevated ground-level position, almost locked with an extremely slow two-percent push toward the distant rural Baltic village among fields. A light cold breeze gently sways the dry foreground grass and slender birch branches; buildings, fences and the church tower remain rigid and stationary. Cloud movement is subtle, real-time, not a time-lapse. Preserve the quiet deserted moment, grey overcast sky, autumn muted colors and restrained melancholy. No people, vehicles, animals, added structures, drone rise, dramatic zoom, cuts or lighting changes. SOUND: soft natural outdoor wind passing through dry grass and birch leaves, gentle variable rustle with spatial depth, no storm gusts or microphone buffeting. No voices, music, church bells, traffic or dramatic effects. No text or logos."
+    },
+    {
+      "id": "m04",
+      "image": "m04-clinic-reference-v02-cool.png",
+      "duration": 5,
+      "prompt": "A single continuous five-second photorealistic shot beginning exactly from the supplied first frame. An extremely slow subtle two-percent camera push along the empty clinic waiting area toward the closed consultation-room door. Preserve all four waiting chairs, doors, handles, floor, window, radiator and plant exactly. Chairs and door remain still; no door opens. Same cold muted blue-grey light, dim but readable exposure and clean maintained medical centre. No people, silhouettes, reflections, signs, new objects, blinking lights, dramatic shadows or cuts. SOUND: subtle indoor clinic room tone, low steady ventilation hum and faint faraway outdoor air through the closed window. Quiet ordinary functioning room, no medical beeps, speech, whispers, footsteps, door sounds, music or dramatic effects. No text or logos."
+    }
+  ]
+}

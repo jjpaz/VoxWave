@@ -1,0 +1,15 @@
+{
+  "decode": "passed",
+  "resolution": "1280x720",
+  "duration": "72.200000",
+  "frames": "2166",
+  "audio_sample_rate": "48000",
+  "audio_channels": 2,
+  "cue_order": "passed",
+  "original_dialogue_turns": 11,
+  "silence_waveform": "passed",
+  "integrated_lufs": "-28.45",
+  "true_peak_dbtp": "-9.23",
+  "loudness_range_lu": "10.50",
+  "review_scope": "Frames, source script/cues, measured loudness and complete decoding; artistic listening remains subjective."
+}

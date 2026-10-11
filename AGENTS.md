@@ -14,3 +14,5 @@
 - Actualizar STATUS y decisiones cuando cambie el proyecto.
 - Validación inicial: python scripts/check_repository.py. No existen todavía pruebas de aplicación; añadirlas al implementar comportamiento.
 - En Cloud: trabajar solo con el contenido seguro del repositorio y datos sintéticos; no descargar datasets ni pedir credenciales clínicas.
+
+- Excepción revisada 2026-10-11 (D036): los medios de video/handoff/assets.json se permiten mediante Git LFS, incluso mayores de 5 MiB. Mantener exclusiones generales y verificar SHA-256 antes de publicar.

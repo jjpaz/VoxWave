@@ -1,0 +1,16 @@
+# M04 — Clinic waiting reference v01
+
+Generated with the built-in image tool. Approved M03 C serves only as a weather/palette reference. Output: `video/renders/keyframes/m04-clinic-reference-v01.png`.
+
+Visual review: four empty waiting chairs, closed consultation door, cool side window light, clean maintained room. No people or readable signs. Image is a fictional illustration, not evidence about staffing or waiting times at any real clinic. Owner approval pending; no video generated.
+
+## Exact generation prompt
+
+```text
+Use case: photorealistic-natural.
+Asset: ONE cinematic reference still, landscape 16:9, for M04, the final live-action-style shot of a film opening about distance and waiting for care. Fictional contemporary modest outpatient medical centre in a small Lithuanian/Baltic town. The attached image is ONLY a reference for the grey overcast daytime, muted palette and understated melancholy of the preceding rural village shot. This is a NEW INTERIOR: no village elements, vegetation or houses inside.
+Composition: a quiet waiting area integrated into a short, believable outpatient corridor. Camera at seated-to-standing human eye level, about 40 mm lens, looking along the hall at a gentle three-quarter angle. Four simple empty waiting chairs in subdued dusty blue/grey, practical metal legs, line the left wall and recede from the lower-left foreground toward a CLOSED consultation-room door at the far end, slightly right of center. The nearest chair is fully readable, not dominating the whole picture; the repeated empty seats and closed door carry the feeling of waiting. A plain secondary door on one side reinforces the clinic layout. Human-scale small clinic, not vast hospital maze.
+Architecture: clean pale grey-green/off-white painted walls, simple white doorframes, modest wood-toned or muted grey consultation doors with ordinary lever handles, tidy slightly worn grey vinyl flooring, a simple institutional ceiling with functional restrained light fixtures. Clearly maintained, open and in current use; no decay, dirt, cracked plaster, clutter or abandoned-building cues. Keep it ordinary rather than luxury or high-tech. No beds, wheelchairs, IV stands, surgical equipment or emergency setting. No readable signage, notices, records, screens, logos or personal information. No people, faces, silhouettes or reflections.
+Lighting: soft dull cool daylight entering from a side window on frame right, showing only diffuse grey exterior light, supported very subtly by ordinary neutral ceiling lights. Same cloudy day as the reference; subdued cinematic exposure with deep but readable gentle shadows, muted blues and greys, little saturation, gentle tonal falloff, subtle photographic grain. Enough light that the clinic is plausibly functioning, not ominous or unlit. No fluorescent green horror tint, flickering lights, dramatic shafts, warm sunshine or blown highlights. Quiet pause between appointments, emotional restraint, melancholy without neglect.
+Photographic realism and physically coherent corridor geometry. Single full-frame image, no collage, black bars, text overlay, waveform, branding or watermark. Framing suitable for a five-second still hold or extremely slow push toward the closed door.
+```

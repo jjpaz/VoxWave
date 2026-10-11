@@ -1,0 +1,10 @@
+{
+  "model_id": "eleven_v3",
+  "language_code": "en",
+  "seed": 10102026,
+  "inputs": [
+    {"voice_id": "g12yXXabMWeFoLMzxPrF", "text": "Hello?"},
+    {"voice_id": "EXAVITQu4vr4xnSDxMaL", "text": "Hi, Mum. It's me. How are you feeling today?"},
+    {"voice_id": "g12yXXabMWeFoLMzxPrF", "text": "Oh, I'm all right. A little tired, that's all. How are you?"}
+  ]
+}
